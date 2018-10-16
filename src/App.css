@@ -12,21 +12,37 @@ ul {
     list-style-type: none;
 }
 
-.container {
+input {
+    width: 32px;
+    height: 32px;
+    order: 1;
+    z-index: 2;
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    visibility: hidden;
+}
+
+input:checked ~ label {
+    border: solid 1px goldenrod;
+    color: goldenrod;
+    transition: all 150ms;
+}
+
+label {
+    border:solid 1px black;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.q-container {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
 }
 
-.label {
-font-weight: bold;
-}
-
-.value {
-color: #474747;
-position: absolute;
-left: 100px;
-}
-
-.message .value {
-font-style: italic;
+.selections {
+    margin: 5px 0 5px 0;
+    display: flex;
 }

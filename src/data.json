@@ -1,265 +1,317 @@
 [
-    {
-       "id":1,
-       "target":"Kind",
-       "questions":[
-          {
-             "id":15,
-             "content":"Geslacht van het kind",
-             "answers":[
-                {
-                   "id":16,
-                   "content":"man",
-                   "value":0.38735846
-                },
-                {
-                   "id":17,
-                   "content":"vrouw",
-                   "value":0.80563824
-                }
-             ]
-          },
-          {
-            "id":18,
-            "content":"Herkomst van de ouders",
-            "answers":[
-               {
-                  "id":19,
-                  "content":"beide ouders niet Nederlands",
-                  "value":0.38735846
-               },
-               {
-                  "id":20,
-                  "content":"een van de ouders Nederlands en de andere niet Nederlands",
-                  "value":0.80563824
-               }
-            ]
-         },
-          {
-             "id":2,
-             "content":"Voortijdig school verlater?",
-             "answers":[
-                {
-                   "id":3,
-                   "content":"niet van toepassing",
-                   "value":0.38735846
-                },
-                {
-                   "id":4,
-                   "content":"onbekend",
-                   "value":0.80563824
-                },
-                {
-                   "id":5,
-                   "content":"uit onderwijs met startkwalificatie",
-                   "value":-13.64192657
-                },
-                {
-                   "id":6,
-                   "content":"voortijdig schoolverlaten",
-                   "value":0.34683899
-                }
-             ]
-          },
-          {
-             "id":7,
-             "content":"In wat voor huishouden bevindt het kind zich?",
-             "answers":[
-                {
-                   "id":8,
-                   "content":"Eenouderhuishouden",
-                   "value":0.38735846
-                },
-                {
-                   "id":9,
-                   "content":"Eenpersoonshuishouden",
-                   "value":0.80563824
-                },
-                {
-                   "id":10,
-                   "content":"Gehuwd paar zonder kinderen",
-                   "value":-13.64192657
-                },
-                {
-                   "id":11,
-                   "content":"Institutioneel huishouden",
-                   "value":0.34683899
-                },
-                {
-                   "id":12,
-                   "content":"Niet-gehuwd paar met kinderen",
-                   "value":0.34683899
-                },
-                {
-                   "id":13,
-                   "content":"Niet-gehuwd paar zonder kinderen",
-                   "value":0.34683899
-                },
-                {
-                   "id":14,
-                   "content":"Onbekend huishouden",
-                   "value":0.34683899
-                }
-             ]
-          },
-          {
-            "id":21,
-            "content":"Zijn de ouders gescheiden?",
-            "answers":[
-               {
-                  "id":22,
-                  "content":"ja",
-                  "value":0.38735846
-               },
-               {
-                  "id":23,
-                  "content":"nee",
-                  "value":0.80563824
-               }
-            ]
-         }
-       ]
-    },
-    {
-       "id":24,
-       "target":"Ouders",
-       "questions":[
-          {
-             "id":25,
-             "content":"Leeftijd van vader bij geboorte kind?",
-             "answers":[
-                {
-                   "id":26,
-                   "content":"25 tot 30 jaar",
-                   "value":0.38735846
-                },
-                {
-                   "id":27,
-                   "content":"30 tot 35 jaar",
-                   "value":0.80563824
-                },
-                {
-                   "id":28,
-                   "content":"35 tot 40 jaar",
-                   "value":-13.64192657
-                },
-                {
-                   "id":29,
-                   "content":"40 jaar of ouder",
-                   "value":0.34683899
-                }
-             ]
-          },
-          {
-             "id":30,
-             "content":"Leeftijd van moeder bij geboorte kind?",
-             "answers":[
-                {
-                   "id":31,
-                   "content":"20 jaar of jonger",
-                   "value":0.38735846
-                },
-                {
-                   "id":32,
-                   "content":"20 tot 25 jaar",
-                   "value":0.80563824
-                },
-                {
-                   "id":33,
-                   "content":"25 tot 30 jaar",
-                   "value":-13.64192657
-                },
-                {
-                   "id":34,
-                   "content":"30 tot 35 jaar",
-                   "value":0.34683899
-                },
-                {
-                   "id":35,
-                   "content":"35 tot 40 jaar",
-                   "value":0.34683899
-                },
-                {
-                   "id":36,
-                   "content":"40 jaar of ouder",
-                   "value":0.34683899
-                }
-             ]
-          },
-          {
-            "id":37,
-            "content":"Soort woning?",
-            "answers":[
-               {
-                  "id":38,
-                  "content":"Huurwoning met huurtoeslag",
-                  "value":0.3840103
-               },
-               {
-                  "id":39,
-                  "content":"Huurwoning zonder huurtoeslag",
-                  "value":0.40420458
-               },
-               {
-                  "id":40,
-                  "content":"Onbekend",
-                  "value":2.40126358
-               }
-            ]
-         },
-         {
-            "id":41,
-            "content":"Soort woning?",
-            "answers":[
-               {
-                  "id":42,
-                  "content":"Huurwoning met huurtoeslag",
-                  "value":0.3840103
-               },
-               {
-                  "id":43,
-                  "content":"Huurwoning zonder huurtoeslag",
-                  "value":0.40420458
-               },
-               {
-                  "id":44,
-                  "content":"Onbekend",
-                  "value":2.40126358
-               }
-            ]
-         },
-         {
-            "id":45,
-            "content":"Wat voor werk doet de vader?",
-            "answers":[
-               {
-                  "id":46,
-                  "content":"Geen Werk",
-                  "value": 0.33771646
-               },
-               {
-                  "id":47,
-                  "content":"Onbekend",
-                  "value": 0.23485558
-               }
-            ]
-         },
-         {
-            "id":48,
-            "content":"Wat voor werk doet de moeder?",
-            "answers":[
-               {
-                  "id":49,
-                  "content":"Geen Werk",
-                  "value": 0.36957624
-               },
-               {
-                  "id":50,
-                  "content":"Onbekend",
-                  "value": -0.95012155
-               }
-            ]
-         }
-       ]
-    }
- ]
+  {
+     "id":1,
+     "target":"Kind",
+     "questions":[
+        {
+           "id":15,
+           "content":"Geslacht van het kind",
+           "answers":[
+              {
+                 "id":16,
+                 "content":"man",
+                 "value":0.38735846
+              },
+              {
+                 "id":17,
+                 "content":"vrouw",
+                 "value":0.80563824
+              }
+           ]
+        },
+        {
+           "id":18,
+           "content":"Herkomst van de ouders",
+           "answers":[
+              {
+                 "id":19,
+                 "content":"beide ouders niet Nederlands",
+                 "value":0.38735846
+              },
+              {
+                 "id":20,
+                 "content":"een van de ouders Nederlands en de andere niet Nederlands",
+                 "value":0.80563824
+              }
+           ]
+        },
+        {
+           "id":2,
+           "content":"Voortijdig school verlater?",
+           "answers":[
+              {
+                 "id":3,
+                 "content":"niet van toepassing",
+                 "value":0.38735846
+              },
+              {
+                 "id":4,
+                 "content":"onbekend",
+                 "value":0.80563824
+              },
+              {
+                 "id":5,
+                 "content":"uit onderwijs met startkwalificatie",
+                 "value":-13.64192657
+              },
+              {
+                 "id":6,
+                 "content":"voortijdig schoolverlaten",
+                 "value":0.34683899
+              }
+           ]
+        },
+        {
+           "id":7,
+           "content":"In wat voor huishouden bevindt het kind zich?",
+           "answers":[
+              {
+                 "id":8,
+                 "content":"Eenouderhuishouden",
+                 "value":0.38735846
+              },
+              {
+                 "id":9,
+                 "content":"Eenpersoonshuishouden",
+                 "value":0.80563824
+              },
+              {
+                 "id":10,
+                 "content":"Gehuwd paar zonder kinderen",
+                 "value":-13.64192657
+              },
+              {
+                 "id":11,
+                 "content":"Institutioneel huishouden",
+                 "value":0.34683899
+              },
+              {
+                 "id":12,
+                 "content":"Niet-gehuwd paar met kinderen",
+                 "value":0.34683899
+              },
+              {
+                 "id":13,
+                 "content":"Niet-gehuwd paar zonder kinderen",
+                 "value":0.34683899
+              },
+              {
+                 "id":14,
+                 "content":"Onbekend huishouden",
+                 "value":0.34683899
+              }
+           ]
+        },
+        {
+           "id":21,
+           "content":"Zijn de ouders gescheiden?",
+           "answers":[
+              {
+                 "id":22,
+                 "content":"ja",
+                 "value":0.38735846
+              },
+              {
+                 "id":23,
+                 "content":"nee",
+                 "value":0.80563824
+              }
+           ]
+        }
+     ]
+  },
+  {
+     "id":24,
+     "target":"Ouders",
+     "questions":[
+        {
+           "id":25,
+           "content":"Leeftijd van vader bij geboorte kind?",
+           "answers":[
+              {
+                 "id":26,
+                 "content":"25 tot 30 jaar",
+                 "value":0.38735846
+              },
+              {
+                 "id":27,
+                 "content":"30 tot 35 jaar",
+                 "value":0.80563824
+              },
+              {
+                 "id":28,
+                 "content":"35 tot 40 jaar",
+                 "value":-13.64192657
+              },
+              {
+                 "id":29,
+                 "content":"40 jaar of ouder",
+                 "value":0.34683899
+              }
+           ]
+        },
+        {
+           "id":30,
+           "content":"Leeftijd van moeder bij geboorte kind?",
+           "answers":[
+              {
+                 "id":31,
+                 "content":"20 jaar of jonger",
+                 "value":0.38735846
+              },
+              {
+                 "id":32,
+                 "content":"20 tot 25 jaar",
+                 "value":0.80563824
+              },
+              {
+                 "id":33,
+                 "content":"25 tot 30 jaar",
+                 "value":-13.64192657
+              },
+              {
+                 "id":34,
+                 "content":"30 tot 35 jaar",
+                 "value":0.34683899
+              },
+              {
+                 "id":35,
+                 "content":"35 tot 40 jaar",
+                 "value":0.34683899
+              },
+              {
+                 "id":36,
+                 "content":"40 jaar of ouder",
+                 "value":0.34683899
+              }
+           ]
+        },
+        {
+           "id":37,
+           "content":"Soort woning?",
+           "answers":[
+              {
+                 "id":38,
+                 "content":"Huurwoning met huurtoeslag",
+                 "value":0.3840103
+              },
+              {
+                 "id":39,
+                 "content":"Huurwoning zonder huurtoeslag",
+                 "value":0.40420458
+              },
+              {
+                 "id":40,
+                 "content":"Onbekend",
+                 "value":2.40126358
+              }
+           ]
+        },
+        {
+           "id":41,
+           "content":"Soort woning?",
+           "answers":[
+              {
+                 "id":42,
+                 "content":"Huurwoning met huurtoeslag",
+                 "value":0.3840103
+              },
+              {
+                 "id":43,
+                 "content":"Huurwoning zonder huurtoeslag",
+                 "value":0.40420458
+              },
+              {
+                 "id":44,
+                 "content":"Onbekend",
+                 "value":2.40126358
+              }
+           ]
+        },
+        {
+           "id":45,
+           "content":"Wat voor werk doet de vader?",
+           "answers":[
+              {
+                 "id":46,
+                 "content":"Geen Werk",
+                 "value":0.33771646
+              },
+              {
+                 "id":47,
+                 "content":"Onbekend",
+                 "value":0.23485558
+              }
+           ]
+        },
+        {
+           "id":48,
+           "content":"Wat voor werk doet de moeder?",
+           "answers":[
+              {
+                 "id":49,
+                 "content":"Geen Werk",
+                 "value":0.36957624
+              },
+              {
+                 "id":50,
+                 "content":"Onbekend",
+                 "value":-0.95012155
+              }
+           ]
+        },
+        {
+           "id":51,
+           "content":"Hoogst behaalde diploma van de moeder?",
+           "answers":[
+              {
+                 "id":52,
+                 "content":"Onderwijs onbekend",
+                 "value":0.36957624
+              },
+              {
+                 "id":53,
+                 "content":"VMBO b/k, MBO 1 en MBO 2",
+                 "value":-0.95012155
+              },
+              {
+                 "id":54,
+                 "content":"VMBO b/k, MBO 3 en MBO 4",
+                 "value":-0.95012155
+              },
+              {
+                 "id":55,
+                 "content":"VWO, WO bachelor en WO master",
+                 "value":-0.95012155
+              }
+           ]
+        },
+        {
+          "id":56,
+          "content":"Hoogst behaalde diploma van de vader?",
+          "answers":[
+             {
+                "id":57,
+                "content":"Onderwijs onbekend",
+                "value":0.36957624
+             },
+             {
+                "id":58,
+                "content":"VMBO b/k, MBO 1 en MBO 2",
+                "value":-0.95012155
+             },
+             {
+                "id":59,
+                "content":"VMBO b/k, MBO 3 en MBO 4",
+                "value":-0.95012155
+             },
+             {
+                "id":60,
+                "content":"VWO, WO bachelor en WO master",
+                "value":-0.95012155
+             }
+          ]
+       }
+     ]
+  }
+]
