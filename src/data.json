@@ -10,12 +10,12 @@
               {
                  "id":16,
                  "content":"man",
-                 "value":0.38735846
+                 "value":-0.12610868
               },
               {
                  "id":17,
                  "content":"vrouw",
-                 "value":0.80563824
+                 "value":0
               }
            ]
         },
@@ -26,12 +26,12 @@
               {
                  "id":19,
                  "content":"beide ouders niet Nederlands",
-                 "value":0.38735846
+                 "value": 0.16972268
               },
               {
                  "id":20,
                  "content":"een van de ouders Nederlands en de andere niet Nederlands",
-                 "value":0.80563824
+                 "value": -0.08942976
               }
            ]
         },

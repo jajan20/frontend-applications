@@ -26,23 +26,26 @@ input {
 }
 
 input:checked ~ label {
-    border: solid 1px goldenrod;
-    color: goldenrod;
-    transition: all 150ms;
+    border: solid 1px crimson;
+    color: crimson;
+    transition: all 100ms;
 }
 
 label {
     border:solid 1px black;
-    padding: 3px;
+    padding: 3px 10px 3px 10px;
     cursor: pointer;
 }
 
-.q-container {
+.answer-container {
     display: flex;
     flex-wrap: wrap;
 }
 
+.question-container {
+    margin: 1rem 0 1rem 0;
+}
 .selections {
-    margin: 5px 0 5px 0;
+    margin: 5px 5px 5px 0;
     display: flex;
 }
