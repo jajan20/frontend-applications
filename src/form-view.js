@@ -2,22 +2,29 @@ import React, { Component } from "react"
 
 class FormView extends Component {
 
-    render() {
-    let calc = function() {
-        let answerValue = document.querySelectorAll('input:checked')
-        for(let i = 0; i < answerValue.length; i++) {
-            console.log(answerValue[i].value, i)
-        }
+  calcValue(event) {
+    // console.log(this)
+    const answer = {
+      value: this.answer.value
     }
-    
-    const data = this.props
-    // console.log(data.props)
-    return (
-      <div>
-          <div>
-              <h1>{
+    console.log(answer)
+  }
 
-              }</h1>
+
+
+    render() {
+    // let calc = function() {
+    //     let answerValue = document.querySelectorAll('input:checked')
+    //     for(let i = 0; i < answerValue.length; i++) {
+    //         console.log(answerValue[i].value, i)
+    //     }
+    // }
+
+    const data = this.props
+    return (
+      <div addAnswer={this.props.addAnswer}>
+          <div>
+              <h1>Risico Percentage: {this.answerValue}</h1>
           </div>
         <h1>{data.props.target}</h1>
         <ul>
@@ -28,7 +35,8 @@ class FormView extends Component {
                 {obj.answers.map(q => (
                   <li key={q.id} className="selections">
                     <input
-                    onChange={calc}
+                      ref={(input) => this.answer = input}
+                      onChange={(e) => this.calcValue(e)}
                       name={obj.content}
                       id={q.id}
                       type={"radio"}
