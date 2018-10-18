@@ -8,6 +8,9 @@ navigate to the root folder
 
 > $npm start
 
+## Preview
+![](https://github.com/jajan20/frontend-applications/blob/master/risk-preview.png?raw=true)
+
 ## Research
 In these two weeks, we got the opportunity to help Arjen out with his risk calculation dashboard. A dashboard used to calculate the potential risk of children being placed into someone else's custody, due to harm or neglect.
 
