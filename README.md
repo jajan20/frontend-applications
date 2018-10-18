@@ -28,9 +28,14 @@ After using it a couple of times I noticed a few other things:
 - There's so much information (cognitive overload).
 
 ## Concept
+<strong>The Idea:</strong>
+A simple app that helps users with advice and saving information about clients. By not letting the users worrie about when they need to fill it in, or overloading them with information I can make the experience more pleasureable. It's an assistant and should act that way, so that users can focus on the important parts.
+
 I wanted to make an app which the users could use with just their smartphone. We had some feedback from the target audience in which they said:
 - Usually, we don't use the dashboard/laptop at the first meeting because being digital can stand in the way of building trust with the client.
     - Which means they write down or remember everything and fill in the information at a later time.
+
+- If the dashboard could help remind me what kind of questions need answering for the next meeting that would be a big help.
 
 ## Roadmap
 - [x] Make it faster for users to select an answer.
