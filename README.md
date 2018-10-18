@@ -47,7 +47,7 @@ The syntax was different, JSX was hard to wrap my head around. But in just a cou
 ---
 
 ### Stateless Function Component
-Sometimes components will be so simple, that they will only do one thing. If you don't need other methods inside your component other then the render method. In that case, we can use stateless functions:
+Sometimes components will be so simple, that they will only do one thing. If you don't need any other methods inside your component except the render method we can use a stateless functions:
 
 <strong>Stateless Function Component</strong>
 ```jsx
@@ -76,6 +76,7 @@ class Example extends React.Component {
 export default Example
 ```
 For my project, I tried using both, but after refactoring my code a couple of times I don't have that many separate components.
+The biggest aha moment is that inside the class component (inside the render method) you can refer to this. But with the stateless function there's no this and you can pass props.
 
 ---
 
@@ -107,23 +108,36 @@ class AnotherExample extends React.Component {
 <AnotherExample name="Jamie"/>
 ```
 
-We can pass properties to the component using attributes. Then we can access them inside the component.
+Props or properties we can pass to the component using attributes. Then we can access them inside the component.
 
 ---
 
 ### Constructor and Super
+This concept is still really abstract for me. But as I understand it. Once you create a react component and you want to add your own methods you need the constructor and super otherwise the methods won't work.
+
+```jsx
+constructor(){
+    super()
+}
+```
 
 ### Components
 
 ### ES6
+- Arrowfunctions
+- Classes
 
-### className, htmlFor, Tagline
+### className, htmlFor
+In html you use attribrutes like class and for but since these are reserved inside javascript you need to use different 
 
 ### Terminal
+A lot of guides online start with the complete react libary and tools. create-react-app [name of project] will create a folder with everything you need to start building. This can be a bit overwhelming but you can always use the script tag with react libary directly inside your html.
 
 ### External Files
+Using components turns out is quite easy, even importing CSS and JSON data is as easy as writing import data from './location of json'.
 
 ## Journal
+
 ### Maandag 8 Oktober
 - Introductie dag
 - College Arjen met uitleg opdracht
