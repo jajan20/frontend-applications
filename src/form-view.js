@@ -1,31 +1,27 @@
 import React, { Component } from "react"
 
 class FormView extends Component {
-
-  calcValue(event) {
-    // console.log(this)
-    const answer = {
-      value: this.answer.value
+  constructor() {
+    super()
+    this.handleChange = this.handleChange.bind(this)
+    this.state = {
+      inputValue: ""
     }
-    console.log(answer)
   }
 
+  handleChange(event) {
+    this.setState({
+      inputValue: event.target.value
+    })
+  }
 
-
-    render() {
-    // let calc = function() {
-    //     let answerValue = document.querySelectorAll('input:checked')
-    //     for(let i = 0; i < answerValue.length; i++) {
-    //         console.log(answerValue[i].value, i)
-    //     }
-    // }
-
+  render() {
     const data = this.props
     return (
-      <div addAnswer={this.props.addAnswer}>
-          <div>
-              <h1>Risico Percentage: {this.answerValue}</h1>
-          </div>
+      <div>
+        <div>
+          <h1>Risico Percentage: {Math.floor(this.state.inputValue * 10)}%</h1>
+        </div>
         <h1>{data.props.target}</h1>
         <ul>
           {data.props.questions.map(obj => (
@@ -35,8 +31,8 @@ class FormView extends Component {
                 {obj.answers.map(q => (
                   <li key={q.id} className="selections">
                     <input
-                      ref={(input) => this.answer = input}
-                      onChange={(e) => this.calcValue(e)}
+                      ref={input => (this.answer = input)}
+                      onChange={this.handleChange}
                       name={obj.content}
                       id={q.id}
                       type={"radio"}
