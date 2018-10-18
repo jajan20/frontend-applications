@@ -28,6 +28,7 @@ After using it a couple of times I noticed a few other things:
 - There's so much information (cognitive overload).
 
 ## Concept
+![](https://github.com/jajan20/frontend-applications/blob/master/concept-riskCalculator.png?raw=true)
 <strong>The Idea:</strong>
 A simple app that helps users with advice and saving information about clients. By not letting the users worrie about when they need to fill it in, or overloading them with information I can make the experience more pleasureable. It's an assistant and should act that way, so that users can focus on the important parts.
 
