@@ -35,9 +35,10 @@ I wanted to make an app which the users could use with just their smartphone. We
 ## Roadmap
 - [x] Make it faster for users to select an answer.
 - [ ] Save the information locally, if the user refreshes data isn't lost.
-- [ ] Separate the questions, return them in easier to read bits.
-- [ ] Redesign the dashboard
+- [x] Separate the questions, return them in easier to read bits.
+- [x] Redesign the dashboard
 - [ ] Alerts/reminders when a question hasn't been answered yet. (Maybe hiding questions that have been answered)
+- [x] Direct feedback for the user, not having to click on submit to get a calculated value.
 
 
 ## Challenges
@@ -121,14 +122,12 @@ constructor(){
 }
 ```
 
-### Components
-
 ### ES6
 - Arrowfunctions
 - Classes
 
 ### className, htmlFor
-In html you use attribrutes like class and for but since these are reserved inside javascript you need to use different 
+In html you use attribrutes like class and for but since these are reserved inside javascript you need to use different names like className for class and htmlFor instead of for.
 
 ### Terminal
 A lot of guides online start with the complete react libary and tools. create-react-app [name of project] will create a folder with everything you need to start building. This can be a bit overwhelming but you can always use the script tag with react libary directly inside your html.
@@ -138,17 +137,17 @@ Using components turns out is quite easy, even importing CSS and JSON data is as
 
 ## Journal
 
-### Maandag 8 Oktober
+### Maandag 8 oktober
 - Introductie dag
 - College Arjen met uitleg opdracht
 
-### Dinsdag 9 Oktober
+### Dinsdag 9 oktober
 - Gast sprekers verschillende frameworks (react, Vue, angular)
 - Bootcamp JavaScript (Titus)
 - Research naar framework
 - Mailen van top 3
 
-### Woensdag 10 Oktober
+### Woensdag 10 oktober
 - Bootcamp (Titus)
 - 2e presentatie Arjen (verdieping)
 - Vragen voor Arjen
@@ -158,7 +157,7 @@ Using components turns out is quite easy, even importing CSS and JSON data is as
 - States and Props verwarring hoe werkt dit nou
 - Klein JSON bestand samengesteld om mee te werken
 
-### Donderdag 11 Oktober
+### Donderdag 11 oktober
 - React tutorials gevolgd
 - Schetsen gemaakt voor opzet
 - HTML prototype begonnen
@@ -170,7 +169,7 @@ Using components turns out is quite easy, even importing CSS and JSON data is as
 - Schetsen
 - opzet met radiobuttons gemaakt
 
-### Maandag 15 Oktober
+### Maandag 15 oktober
 - Tutorial afgemaakt
 - Begin gemaakt aan app (yarn install etc)
 - Uitgezocht hoe je met nested objects werkt binnen array's.
@@ -185,6 +184,12 @@ Using components turns out is quite easy, even importing CSS and JSON data is as
 - Gastcollege over frameworks
 - Wes Bos tutorial gekeken
 - Waarde van data in de header gekregen (formule)
+- Readme geschreven
+
+### Donderdag 18 oktober
+- Readme verder geschreven
+- Form tutorials gelezen
+- App verder afgemaakt
 
 ## Resources
 - [Load JSON into ReactJS](http://4dev.tech/2017/12/how-to-load-a-json-file-in-reactjs/)
