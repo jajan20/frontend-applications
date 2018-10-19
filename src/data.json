@@ -1,7 +1,7 @@
 [
   {
      "id":1,
-     "target":"Kind",
+     "target":"Vragen over het kind",
      "questions":[
         {
            "id":15,
@@ -122,7 +122,7 @@
   },
   {
      "id":24,
-     "target":"Ouders",
+     "target":"Vragen over de ouders",
      "questions":[
         {
            "id":25,

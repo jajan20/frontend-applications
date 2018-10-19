@@ -19,15 +19,15 @@ class FormView extends Component {
     const data = this.props
     return (
       <div className="form-container">
-        <span>Kans op uithuis plaatsing: <span className="total-value">{Math.floor(this.state.inputValue * 10)}%</span></span>
+        <span className="calculation-container">Kans op uithuis plaatsing: <span className="total-value">{Math.floor(this.state.inputValue * 10)}%</span></span>
         <div>
-          {/* The calculations aren't based on any real values.*/}
         </div>
         <span className="target-selector">{data.props.target}</span>
+        <div className="container">
         <ul>
           {data.props.questions.map(obj => (
             <li key={obj.id} className="question-container">
-              <span><strong>{obj.content}</strong></span>
+              <span className="question"><strong>{obj.content}</strong></span>
               <ul className="answer-container">
                 {obj.answers.map(q => (
                   <li key={q.id} className="selections">
@@ -46,6 +46,7 @@ class FormView extends Component {
             </li>
           ))}
         </ul>
+        </div>
       </div>
     )
   }
